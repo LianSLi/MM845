@@ -1,0 +1,6 @@
+# Only needed to open/execute the notebooks in notebooks/ (the scripts do not need these).
+-r requirements.txt
+jupyterlab
+nbformat
+nbclient
+ipykernel

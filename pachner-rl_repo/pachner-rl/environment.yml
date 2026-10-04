@@ -1,0 +1,21 @@
+# Conda environment for the project.   Create:  conda env create -f environment.yml
+#                                      Use:     conda activate pachner-rl
+# SnapPy and the other libraries come from PyPI via pip (the same pinned versions as requirements.txt),
+# so the conda and venv setups are identical.
+name: pachner-rl
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - snappy==3.3.2
+      - numpy==2.4.4
+      - scikit-learn==1.8.0
+      - matplotlib==3.10.8
+      - scipy==1.17.1
+      # optional, only to open the notebooks in notebooks/:
+      # - jupyterlab
+      # - nbformat
+      # - nbclient
+      # - ipykernel

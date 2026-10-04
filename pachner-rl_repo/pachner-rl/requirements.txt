@@ -1,0 +1,7 @@
+# Top-level pins: the versions the project was developed and tested with.
+# (requirements-lock.txt is the full `pip freeze` of the tested environment.)
+snappy==3.3.2
+numpy==2.4.4
+scikit-learn==1.8.0
+matplotlib==3.10.8
+scipy==1.17.1
